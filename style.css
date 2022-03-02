@@ -10,6 +10,14 @@ body {
     justify-content: space-between;
 }
 
+/* Normalisasi */
+
+li {
+    list-style-type: none;
+}
+
+/* Notice section */
+
 .notice {
     background-color: rgb(116, 192, 255);
     padding: 8px;
@@ -23,6 +31,17 @@ body {
 
 strong {
     color: rgb(247, 27, 27);
+}
+
+/* Form section */
+
+/* Left form */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
 form {
@@ -77,17 +96,7 @@ form input:focus {
     border: none;
 }
 
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-
-.line {
-    border-right: 2px rgb(116, 192, 255) solid;
-    margin: 0 -180px;
-}
+/* Right form */
 
 .avatar {
     border-left: 2px black solid;
@@ -116,6 +125,8 @@ form input:focus {
     display: none;
 }
 
+/* Tabbed area */
+
 .avatar-info div:target {
     display: block;
 }
@@ -134,23 +145,18 @@ form input:focus {
     margin-top: 20px;
 }
 
-.avatar-info ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 220px;
-}
-
 .avatar-info li a {
     display: block;
     background-color: rgba(48, 48, 48, 0.877);
     padding: 10px 22px;
     margin: 18px 22px;
     color: rgb(204, 204, 204);
+    border: 1px black solid;
     border-radius: 20px;
     text-align: center;
     font: normal normal bold 13px verdana;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .avatar-info li a:hover {
@@ -158,6 +164,8 @@ form input:focus {
     border: 1px black solid;
     color: rgb(0, 0, 0);
 }
+
+/* Footer section */
 
 .footer {
     background-color: rgba(0, 0, 0, 0.616);
