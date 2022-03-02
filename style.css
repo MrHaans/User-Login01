@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notice {
+    background-color: rgb(116, 192, 255);
+    padding: 8px;
+}
+
+.notice p {
+    text-align: center;
+    font: normal normal bold 12px sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+strong {
+    color: rgb(247, 27, 27);
+}
+
+form {
+    padding: 50px;
+    margin: 50px 0;
+    text-align: center;
+}
+
+form label {
+    font: normal normal 700 12px sans-serif;
+    color: rgb(32, 32, 32);
+}
+
+form input {
+    border: 1px black solid;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 6px;
+    border-radius: 5px;
+    color: rgb(29, 29, 29);
+    font: normal normal 500 14px sans-serif;
+    text-align: center;
+}
+
+form input:focus {
+    background-color: rgb(235, 235, 235);
+}
+
+#country:disabled {
+    background-color: rgb(158, 158, 158);
+}
+
+[type="submit"] {
+    padding: 7px 22px;
+    font: normal normal bold 13px sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(31, 91, 255);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+[type="submit"]:hover {
+    background-color: rgb(31, 72, 184);
+    border: none;
+}
+
+[type="submit"]:focus {
+    background-color: rgb(31, 72, 184);
+    border: none;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.line {
+    border-right: 2px rgb(116, 192, 255) solid;
+    margin: 0 -180px;
+}
+
+.avatar {
+    border-left: 2px black solid;
+}
+
+.avatar h1 {
+    font: normal normal bold 22px sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.avatar-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+.avatar-info div {
+    padding: 16px;
+    margin: 35px 10px;
+    background-color: rgba(48, 48, 48, 0.877);
+    border-radius: 15px;
+    outline: 2px black solid;
+    outline-offset: 5px;
+    display: none;
+}
+
+.avatar-info div:target {
+    display: block;
+}
+
+#bayc img, #mayc img, #cp img{
+    border-radius: 100%;
+    border: 2px white solid;
+    width: 220px;
+    height: auto;
+}
+
+#bayc p, #mayc p, #cp p {
+    color: rgb(204, 204, 204);
+    font: normal normal bold 14px/1.9 verdana;
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.avatar-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+}
+
+.avatar-info li a {
+    display: block;
+    background-color: rgba(48, 48, 48, 0.877);
+    padding: 10px 22px;
+    margin: 18px 22px;
+    color: rgb(204, 204, 204);
+    border-radius: 20px;
+    text-align: center;
+    font: normal normal bold 13px verdana;
+    text-decoration: none;
+}
+
+.avatar-info li a:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px black solid;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 12px;
+}
+
+.footer p {
+    text-align: center;
+    color: aliceblue;
+    font: italic normal bold 10px sans-serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/img/user-login.ico">
+    <title>HTML 01</title>
+</head>
+<body>
+    
+        <div class="notice">
+            <p>System still on <strong>maintenance</strong> !!! Wait for an update.</p>
+        </div>
+    
+        <div class="form-container">    
+            <form action="get">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="country">Country</label><br>
+                <input type="text" id="country" name="country" disabled>
+                <br><br>
+                <input type="submit" value="LOGIN" >
+            </form>
+
+            <div class="avatar">
+                <div class="avatar-info">
+                    <ul>
+                        <h1>Select your avatar :</h1>
+                        <li><a href="#bayc">Bored Ape Yacht</a></li>
+                        <li><a href="#mayc">Mutant Ape Yacht</a></li>
+                        <li><a href="#cp">CryptoPunks</a></li>
+                    </ul>
+
+                        <div id="bayc">
+                            <img src="/img/bayc.jpg" alt="Bored Ape Yacht"">
+                            <p>Name : Bored Ape Yacht. <br> Launch : 12-12-2021. <br> Supply : 5,555</p>
+                        </div>
+
+                        <div id="mayc">
+                            <img src="/img/mayc.jpg" alt="Mutant Ape Yacht">
+                            <p>Name : Mutant Ape Yacht. <br> Launch : 15-01-2022. <br> Supply : 9,999</p>
+                        </div>
+
+                        <div id="cp">
+                            <img src="/img/cp.jpg" alt="CryptoPunks">
+                            <p>Name : CryptoPunks. <br> Launch : 10-08-2021. <br> Supply : 2,222</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="footer">
+        <p>Copyright HTML 01 &copy; 2022 Develolment.</p>
+    </div>
+</body>
+</html>
