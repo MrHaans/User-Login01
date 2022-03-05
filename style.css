@@ -76,7 +76,7 @@ form input:focus {
 }
 
 [type="submit"] {
-    padding: 7px 22px;
+    padding: 8px 18px;
     font: normal normal bold 13px sans-serif;
     box-sizing: border-box;
     background-color: rgb(31, 91, 255);
@@ -148,7 +148,7 @@ form input:focus {
 .avatar-info li a {
     display: block;
     background-color: rgba(48, 48, 48, 0.877);
-    padding: 10px 22px;
+    padding: 8px 18px;
     margin: 18px 22px;
     color: rgb(204, 204, 204);
     border: 1px black solid;
